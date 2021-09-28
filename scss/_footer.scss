@@ -1,0 +1,68 @@
+/*  FOOTER  */
+footer{
+    background-color: $colorSecundario;
+    color: $colorPrimario;
+    padding: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+.redes{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footerInfo{
+   margin: 20px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.mainLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#tintaLogo{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.footerContact{
+
+}
+
+a{
+    color: $colorPrimario;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: $colorPrimario;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.iconos{
+@extend #tintaLogo;
+}
+
+}
+
+/*  FIN DEL FOOTER  */

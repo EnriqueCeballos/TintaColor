@@ -1,0 +1,86 @@
+/* GRID APLICADO*/
+
+.gallery {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .gallery__image {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position: center 90%;
+    transition: 0.2s;
+    margin: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  }
+  .gallery__image:hover {
+    @extend .cardProduct:hover;
+  }
+}
+.galleryProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  .cardProduct {
+    height: 250px;
+    width: $w-100;
+    background-color: $cardProduct;
+    box-shadow: 0 2px 8px rgba(218, 217, 217, 0.755);
+    transition: all 0.2s;
+    justify-self: center;
+  }
+  img {
+    height: $w-100;
+    width: $w-100;
+    background-size: cover;
+    background-position: center 90%;
+    border-radius: 8px 8px 0 0;
+    opacity: 0.85;
+  }
+
+  .cardProduct:hover {
+    transform: scale(1.1, 1.1);
+
+    img {
+      opacity: 1;
+    }
+  }
+}
+
+.card__image {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+  background-position: center 90%;
+  border-radius: 8px 8px 0 0;
+}
+
+/*     Tarjetas de Producto    */
+.gallery div,
+.galleryProduct div {
+  border-radius: 8px;
+}
+
+.viewMore {
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  display: flex;
+
+  a {
+    padding: 5px 8px;
+    box-shadow: 0px 1px 2px rgb(61, 61, 61);
+    background-color: $viewMore;
+    color: $colorSecundario;
+  }
+
+  a:hover {
+    background-color: $viewMore-Hover;
+    box-shadow: 0px 1px 2px rgb(61, 61, 61);
+  }
+}
+.menuProduct {
+}
+
+/*FIN DE GALERIA*/

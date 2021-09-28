@@ -1,0 +1,415 @@
+/* TABLA PAGINA SERVICIOS*/
+.table {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px; }
+  .table table {
+    text-align: left;
+    padding: auto;
+    font-size: 15px;
+    width: 100%;
+    height: 500px; }
+  .table th {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 3px; }
+  .table td {
+    font-size: 12px;
+    text-align: center; }
+  .table li {
+    font-size: 12px;
+    display: block; }
+  .table #tablaServicios {
+    background-color: #f3d8e0; }
+
+/* FIN TABLA PAGINA SERVICIOS*/
+/*  FOOTER  */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  footer .redes {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px; }
+  footer .footerInfo {
+    margin: 20px; }
+  footer .footerLogo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse; }
+  footer .mainLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
+  footer #tintaLogo, footer .iconos {
+    height: 30px;
+    width: 30px;
+    margin: 10px; }
+  footer a {
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+  footer p {
+    color: white;
+    text-align: center;
+    margin-top: 10px; }
+
+/*  FIN DEL FOOTER  */
+/* GRID APLICADO*/
+.gallery {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .gallery .gallery__image {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position: center 90%;
+    transition: 0.2s;
+    margin: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5); }
+
+.galleryProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px; }
+  .galleryProduct .cardProduct {
+    height: 250px;
+    width: 100%;
+    background-color: #f3b7b7ed;
+    box-shadow: 0 2px 8px rgba(218, 217, 217, 0.755);
+    transition: all 0.2s;
+    justify-self: center; }
+  .galleryProduct img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center 90%;
+    border-radius: 8px 8px 0 0;
+    opacity: 0.85; }
+  .galleryProduct .cardProduct:hover, .galleryProduct .gallery .gallery__image:hover, .gallery .galleryProduct .gallery__image:hover {
+    transform: scale(1.1, 1.1); }
+    .galleryProduct .cardProduct:hover img, .galleryProduct .gallery .gallery__image:hover img, .gallery .galleryProduct .gallery__image:hover img {
+      opacity: 1; }
+
+.card__image {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+  background-position: center 90%;
+  border-radius: 8px 8px 0 0; }
+
+/*     Tarjetas de Producto    */
+.gallery div,
+.galleryProduct div {
+  border-radius: 8px; }
+
+.viewMore {
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  display: flex; }
+  .viewMore a {
+    padding: 5px 8px;
+    box-shadow: 0px 1px 2px #3d3d3d;
+    background-color: #fdd1d1;
+    color: black; }
+  .viewMore a:hover {
+    background-color: #f5c2c2;
+    box-shadow: 0px 1px 2px #3d3d3d; }
+
+/*FIN DE GALERIA*/
+header {
+  width: 100%; }
+
+body {
+  background-color: white; }
+
+.main {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+
+/* ANIMACION NAV */
+.chargeBar {
+  background-color: white;
+  width: 100%;
+  height: 3px;
+  animation-name: chargeBar;
+  animation-duration: 1.5s; }
+
+/* LINEA TEMPORAL DE LA ANIMACION */
+@keyframes chargeBar {
+  0% {
+    width: 10%;
+    background-color: #ff488f; }
+  15% {
+    width: 15%;
+    background-color: #ff488f; }
+  25% {
+    width: 25%;
+    background-color: #ff488f; }
+  35% {
+    width: 15%;
+    background-color: #ff488f; }
+  50% {
+    width: 50%;
+    background-color: #ff488f; }
+  75% {
+    width: 75%;
+    background-color: #ff488f; }
+  100% {
+    width: 100%;
+    background-color: #ff488f; } }
+
+/*LOGO*/
+#logo {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+
+h1 {
+  color: grey;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#tituloTinta {
+  color: grey;
+  margin-top: 15px;
+  font-size: 40px; }
+
+/*TITULO SECUNDARIO*/
+h2 {
+  color: grey;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/*PARRAFOS AGREGADOS*/
+main p {
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  padding: 5px;
+  margin-bottom: 15px; }
+
+/*          NAV         */
+nav {
+  background-color: black;
+  padding-top: 15px; }
+  nav #menuPrincipal {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    nav #menuPrincipal a {
+      color: white;
+      padding: 10px; }
+    nav #menuPrincipal li {
+      height: 10px;
+      font-weight: 500; }
+
+/*        FIN DEL NAV         */
+/* CAROUSEL PAGINA PRINCIPAL */
+.carousel-inner img {
+  width: 200px;
+  height: 350px;
+  margin-bottom: 200px; }
+
+/* FORMULARIO DE CONTACTO*/
+form {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.form {
+  background-color: #f5c2c2;
+  width: 70vw;
+  text-align: start;
+  font-size: 15px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .form .form__parrafo {
+    margin: 10px; }
+  .form .form__email {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center; }
+  .form .form__email img {
+    height: 80px;
+    display: flex;
+    gap: 20px; }
+  .form .text__Area {
+    width: 100%; }
+  .form .form__text, .form .form__emailtext {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; }
+  .form .form__button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly; }
+
+/* IMAGENES  E ICONOS */
+.pasion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 100%; }
+  .pasion .pasion__image {
+    height: 60vw; }
+
+.flotante1 {
+  position: fixed;
+  width: 45px;
+  bottom: 5%;
+  right: 2%; }
+
+.flotante2 {
+  position: fixed;
+  width: 45px;
+  bottom: 15%;
+  right: 2%; }
+
+/* FIN IMAGENES  E ICONOS */
+/*          MEDIA QUERIES       */
+@media only screen and (max-width: 460px) {
+  /*DESDE*/
+  .main {
+    max-width: 90%; }
+  h1 {
+    font-size: 25px; }
+  #tituloTinta {
+    font-size: 25px; }
+  h2 {
+    font-size: 20px; }
+  h3 {
+    font-size: 20px; }
+  p {
+    font-size: 12px; }
+  .cardProduct {
+    max-width: 300px; }
+  .flotante1 {
+    height: 30px;
+    width: 30px; }
+  .flotante2 {
+    height: 30px;
+    width: 30px; }
+  nav, nav ul {
+    flex-direction: column;
+    padding: 0px; }
+  nav li {
+    margin-bottom: 5px;
+    padding: 3px; }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .gallery__image {
+    width: 80vw; }
+  .carousel, .carousel-inner img {
+    height: auto; } }
+
+.form {
+  flex-direction: column; }
+
+.form__email {
+  flex-direction: row; }
+
+@media only screen and (min-width: 768px) {
+  .main {
+    max-width: 80%; }
+  h1 {
+    font-size: 30px; }
+  #tituloTinta {
+    font-size: 30px; }
+  h2 {
+    font-size: 22px; }
+  h3 {
+    font-size: 22px; }
+  p {
+    font-size: 14px; }
+  .flotante1 {
+    height: 35px;
+    width: 35px; }
+  .flotante2 {
+    height: 35px;
+    width: 35px; }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+@media only screen and (min-width: 992px) {
+  .main {
+    max-width: 80%; }
+  h1 {
+    font-size: 40px; }
+  #tituloTinta {
+    font-size: 40px; }
+  h2 {
+    font-size: 25px; }
+  h3 {
+    font-size: 25px; }
+  p {
+    font-size: 15px; }
+  .flotante1 {
+    height: 40px;
+    width: 40px; }
+  .flotante2 {
+    height: 40px;
+    width: 40px; }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+@media only screen and (min-width: 1200px) {
+  .main {
+    max-width: 80%; }
+  h1 {
+    font-size: 45px; }
+  #tituloTinta {
+    font-size: 45px; }
+  h2 {
+    font-size: 27px; }
+  h3 {
+    font-size: 27px; }
+  p {
+    font-size: 17px; }
+  .flotante1 {
+    height: 45px;
+    width: 45px; }
+  .flotante2 {
+    height: 45px;
+    width: 45px; } }

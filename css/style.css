@@ -1,0 +1,589 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+body{
+    background-color: white;
+}
+
+.main{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* ANIMACION NAV */
+.chargeBar{
+    background-color: white;
+    width: 100%;
+    height: 3px;
+    animation-name: chargeBar;
+    animation-duration: 1.5s;
+
+}
+
+/* LINEA TEMPORAL DE LA ANIMACION */
+@keyframes chargeBar{
+    
+    0%{
+        width: 10%;
+        background-color: #ff488f;
+    }  
+    15%{
+        width: 15%;
+        background-color: #ff488f;
+    }  
+    25%{
+        width: 25%;
+        background-color: #ff488f;
+    }
+   
+     35%{
+        width: 15%;
+        background-color: #ff488f;
+    }
+    50%{
+        width: 50%;
+        background-color: #ff488f;
+    }
+    75%{
+        width: 75%;
+        background-color: #ff488f;
+    }
+    100%{
+        width: 100%;
+        background-color: #ff488f;
+    }
+
+} 
+
+/*LOGO*/
+#logo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/*TITULO PRINCIPAL*/
+h1{
+    color: rgb(100, 98, 98);
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tituloTinta{
+    color: grey;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+/*TITULO SECUNDARIO*/
+h2{
+    color: rgb(104, 102, 102);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*TITULO DE INFORMACION*/
+h3{
+    color: brown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*PARRAFOS AGREGADOS*/
+p{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/*          NAV         */
+nav{
+    background-color: black;
+    padding-top: 15px;
+}
+
+#menuPrincipal{
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuPrincipal a{
+    color: white;
+    padding: 10px;
+}
+
+#menuPrincipal li{ 
+    height: 10px;
+    font-weight: 500; 
+}
+
+/*        FIN DEL NAV         */
+
+/* CAROUSEL PAGINA PRINCIPAL */
+
+.carousel-inner img{
+    width: 200px;
+    height: 550px;
+    margin-bottom: 200px;
+}
+
+/*LISTAS*/
+ul{
+    list-style: none;
+    font-size: 0;
+}
+
+/*SUB-MENU*/
+li{
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+}
+ 
+ul ul{
+    position: absolute;
+    display: none;
+    background-color: rgba(99, 94, 94, 0.974);
+    text-align: left;
+}
+
+ul ul li{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ /* TABLA PAGINA SERVICIOS*/
+.table{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+ table{  
+    text-align: left;
+    padding: auto;
+    font-size: 15px;
+    width: 100%;
+    height: 500px;
+}
+
+table th{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 3px;
+}
+table td{
+    font-size: 12px;
+    text-align: center;
+}
+table li{
+    font-size: 12px;
+    display: block;
+}
+
+#tablaServicios{
+    background-color: rgb(243, 216, 224);
+}
+
+ /* FIN TABLA PAGINA SERVICIOS*/
+
+ /* FORMULARIO DE CONTACTO*/
+form{
+    background-color: #f5c2c2;
+    width: 50%;
+    text-align: start;
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+
+}
+.feria{
+    height: 50vw;
+    margin: 20px;
+}
+
+/*  FOOTER  */
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.redes{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footerInfo{
+   margin: 20px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.mainLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#tintaLogo{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.footerContact{
+
+}
+
+footer a{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.iconos{
+    height: 30px;
+    width: 30px;
+}
+.email{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    gap: 20px;
+}
+/*  FIN DEL FOOTER  */
+
+/* IMAGENES  E ICONOS */
+.pasion img{
+    height: 50vw;
+}
+
+.pasion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.flotante1{
+    position: fixed;
+    width: 45px;
+    bottom: 5%;
+    right: 2%;
+}
+
+.flotante2{
+    position: fixed;
+    width: 45px;
+    bottom: 15%;
+    right: 2%;
+}
+/* FIN IMAGENES  E ICONOS */
+
+/*GALERIA DE IMAGENES */
+section{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* GRID APLICADO*/
+.galleryProduct{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.cardProduct{
+    height: 250px;
+    width: 100%;
+    background-color: #f3b7b7ed;
+    box-shadow: 0 2px 8px rgba(218, 217, 217, 0.755);
+    transition: all 0.2s; 
+    justify-self: center;
+   
+}
+
+.cardProduct:hover{
+    transform: scale(1.1,1.1);
+
+}
+.cardProduct:hover img{
+    opacity: 1;
+}
+
+.galleryProduct img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center 90%;
+    border-radius: 8px 8px 0 0;
+    opacity: 0.85;
+}
+.test{
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-position: center 90%;
+    border-radius: 8px 8px 0 0;
+}
+
+ /*     Tarjetas de Producto    */
+.gallery div, .galleryProduct div{
+    border-radius: 8px;
+}
+
+.gallery img{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position: center 90%;
+    transition: 0.2s;
+    margin: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+.viewMore{
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    display: flex;
+}
+
+.viewMore a{
+    padding: 5px 8px;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 50%);
+    background-color: rgb(253 209 209);
+    color: black;
+}
+.viewMore a:hover{
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 50%);
+    background-color: #f5c2c2;
+}
+
+.menuProduct{
+}
+
+.penCircle:hover{
+    transform: scale(1.1,1.1);
+}
+
+.pediatric:hover{
+    transform: scale(1.1,1.1);
+}
+
+.premiun:hover{
+    transform: scale(1.1,1.1);
+}
+
+.herramientas:hover{
+    transform: scale(1.1,1.1);
+}
+
+.planeador:hover{
+    transform: scale(1.1,1.1);
+}
+/*FIN DE GALERIA*/
+
+
+/*          MEDIA QUERIES       */
+@media only screen and ( max-width: 460px){/*DESDE*/
+
+    .main{
+        max-width: 90%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #tituloTinta{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .cardProduct{
+        max-width: 300px;
+    }
+    .flotante1{
+        height: 30px;
+        width: 30px;
+    }
+    .flotante2{
+        height: 30px;
+        width: 30px;
+    }
+     nav, nav ul{
+        flex-direction: column;
+        padding: 0px;
+        }
+
+    nav li{
+        margin-bottom: 5px;
+        padding: 3px;
+    } 
+    .gallery img{
+        width: 80vw;
+    }
+    .carousel, .carousel-inner img{
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    
+    .main{
+        max-width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #tituloTinta{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .flotante1{
+        height: 35px;
+        width: 35px;
+    }
+    .flotante2{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    
+    .main{
+        max-width: 80%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #tituloTinta{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .flotante1{
+        height: 40px;
+        width: 40px;
+    }
+    .flotante2{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    
+    .main{
+        max-width: 80%;
+    }
+    h1{
+        font-size: 45px;
+    }
+    #tituloTinta{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    h3{
+        font-size: 27px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .flotante1{
+        height: 45px;
+        width: 45px;
+    }
+    .flotante2{
+        height: 45px;
+        width: 45px;
+    }
+}
