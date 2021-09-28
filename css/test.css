@@ -84,6 +84,8 @@ footer {
     transition: 0.2s;
     margin: 8px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5); }
+    .gallery .gallery__image:hover {
+      transform: scale(1.1, 1.1); }
 
 .galleryProduct {
   display: grid;
@@ -103,9 +105,9 @@ footer {
     background-position: center 90%;
     border-radius: 8px 8px 0 0;
     opacity: 0.85; }
-  .galleryProduct .cardProduct:hover, .galleryProduct .gallery .gallery__image:hover, .gallery .galleryProduct .gallery__image:hover {
+  .galleryProduct .cardProduct:hover {
     transform: scale(1.1, 1.1); }
-    .galleryProduct .cardProduct:hover img, .galleryProduct .gallery .gallery__image:hover img, .gallery .galleryProduct .gallery__image:hover img {
+    .galleryProduct .cardProduct:hover img {
       opacity: 1; }
 
 .card__image {

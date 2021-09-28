@@ -13,10 +13,11 @@
     transition: 0.2s;
     margin: 8px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
-  }
-  .gallery__image:hover {
-    @extend .cardProduct:hover;
-  }
+ 
+  &:hover {
+    transform: scale(1.1, 1.1);
+  } 
+}
 }
 .galleryProduct {
   display: grid;
