@@ -236,8 +236,7 @@ nav {
 /* CAROUSEL PAGINA PRINCIPAL */
 .carousel-inner img {
   width: 200px;
-  height: 350px;
-  margin-bottom: 200px; }
+  }
 
 /* FORMULARIO DE CONTACTO*/
 form {
