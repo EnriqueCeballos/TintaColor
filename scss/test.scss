@@ -92,7 +92,7 @@ h2 {
 /*PARRAFOS AGREGADOS*/
 main p {
   color: $colorSecundario;
-  font-size: 20px;
+  font-size: 17px;
   text-align: justify;
   padding: 5px;
   margin-bottom: 15px;
@@ -163,7 +163,7 @@ form{
     justify-content: center;
   }
  .form__email img{
-    height: 80px;
+    height: 8vw;
     display: flex;
     gap: 20px;
 }
@@ -182,8 +182,11 @@ form{
 .form__button{
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+#send{
+  margin: 10px;
 }
 }
 
@@ -237,7 +240,7 @@ right: 2%;
         font-size: 20px;
     }
     p{
-        font-size: 12px;
+        font-size: 10px;
     }
     .cardProduct{
         max-width: 300px;
@@ -282,10 +285,24 @@ right: 2%;
 
   }
 
+  .filter {
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    .emptyBuy{
+      width: 100%;
+
+      img{
+        height: 60px;
+        width: 100%;
+      }
+    }
+  }
+
 @media only screen and (min-width: 768px){
     
     .main{
-        max-width: 80%;
+        max-width: 73%;
     }
     h1{
         font-size: 30px;
@@ -350,6 +367,7 @@ right: 2%;
       flex-wrap: wrap;
       justify-content: space-evenly; }
 }
+
 
 @media only screen and (min-width: 1200px){
     

@@ -57,20 +57,118 @@
     <!--TITULO PRINCIPAL-->
     <h1>PRODUCTOS</h1>
 
-    <p>Todos los productos fueron realizados bajo la supervicion de un adulto y con las medidas de seguridad correspondientes</p>    
+    <p>Todos los productos fueron realizados bajo la supervisión de un adulto y con las medidas de seguridad correspondientes.</p>      
 
     <!--GALERIA DE IMAGENES DE LA PAGINA-->
-    <h3>GALERIA DE IMAGENES</h3>
-    
-    <section class="gallery">
-   
-        <img src="images/planeador/plannerDog.jpg" alt="Planeador de Pedriatrico" class="gallery__image" >
-        <img src="images/planeador/plannerFlower1.jpg" alt="Planeador de Flores 1" class="gallery__image">
-        <img src="images/planeador/plannerFlower2.jpg" alt="Planeador de Flores 2" class="gallery__image">
-        <img src="images/planeador/plannerOpen1.jpg" alt=" Planeador Abierto" class="gallery__image">
-        <img src="images/planeador/plannerOpen2.jpg" alt="Planeador Abierto 2" class="gallery__image">
+    <h3 class="galleryText">PLANEADOR MENSUAL</h3>
+    <!--GALERIA DE IMAGENES DE LA PAGINA-->
+ <div class="filter" >
+   <div class="filter__product">
+     <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="planeadores.html" id="navbarDropdownMenuLink" role="button"
+         data-bs-toggle="dropdown" aria-expanded="false">
+         ORDENAR POR:
+       </a>
+       <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+         <li><a class="dropdown-item" href="planeadores.html">Alfabeticamente</a></li>
+         <li><a class="dropdown-item" href="planeadores.html">Más vendidos</a></li>
+         <li><a class="dropdown-item" href="planeadores.html">Precio</a></li>
+       </ul>
+     </li>
+   </div>
+  <div class="filter__text">
+    <textarea name="" id="" cols="30" rows="10" placeholder="Buscar productos"></textarea>
+    <input type="submit" type="button" class="btn btn-danger">
+  </div>
+  <div class="emptyBuy">
+      <a href="planeadores.html" class="buyMenu">MIS COMPRAS</a>
+      <a href="planeadores.html" class="buyMenu">FAVORITOS</a>
+      <a href="planeadores.html"><img src="images/iconos/carritoVacio.png" alt=""></a>
+  </div>
+ </div>
 
-    </section>
+ <section class="galleryProduct">
+ 
+   <!-- PRIMER ARTICULO -->
+   <div class="cardProduct">
+     <div class="card__image">
+       <p>PLANEADOR ROSA CON PERRITO</p>
+       <img src="images/planeador/plannerDog.jpg" alt="Planeador mensual" class="card__menu">
+       <p class="price">Precio: $200</p>
+     </div>
+     <div class="buyNow">
+       <div class="textBuy"><a href="planeadores.html">COMPRAR AHORA</a></div>
+       <div class="addBuy"><a href="planeadores.html"><img src="images/iconos/carritoAgregar.png" alt=""></a></div>
+     </div>
+   </div>
+ 
+   <!-- SEGUNDO ARTICULO -->
+   <div class="cardProduct">
+     <div class="card__image">
+       <p>PLANEADOR CON FLORES </p>
+       <img src="images/planeador/plannerFlower1.jpg" alt="Planeador de Flores 1" class="card__menu">
+       <p class="price">Precio: $200</p>
+     </div>
+     <div class="buyNow">
+       <div class="textBuy"><a href="planeadores.html">COMPRAR AHORA</a></div>
+       <div class="addBuy"><a href="planeadores.html"><img src="images/iconos/carritoAgregar.png" alt=""></a></div>
+     </div>
+   </div>
+ 
+   <!-- TERCER ARTICULO -->
+   <div class="cardProduct">
+     <div class="card__image">
+       <p>PLANEADOR CON FLORES </p>
+       <img src="images/planeador/plannerFlower2.jpg" alt="Planeador de Flores 2" class="card__menu">
+       <p class="price">Precio: $200</p>
+     </div>
+     <div class="buyNow">
+       <div class="textBuy"><a href="planeadores.html">COMPRAR AHORA</a></div>
+       <div class="addBuy"><a href="planeadores.html"><img src="images/iconos/carritoAgregar.png" alt=""></a></div>
+     </div>
+   </div>
+ 
+   <!-- CUARTO ARTICULO -->
+   <div class="cardProduct">
+     <div class="card__image">
+       <p>PLANEADOR CON PUG</p>
+       <img src="images/planeador/plannerOpen1.jpg" alt=" Planeador con perrito"class="card__menu">
+       <p class="price">Precio: $200</p>
+     </div>
+     <div class="buyNow">
+       <div class="textBuy"><a href="planeadores.html">COMPRAR AHORA</a></div>
+       <div class="addBuy"><a href="planeadores.html"><img src="images/iconos/carritoAgregar.png" alt=""></a></div>
+     </div>
+   </div>
+
+   <!-- QUINTO ARTICULO -->
+   <div class="cardProduct">
+     <div class="card__image">
+       <p>PLANEADOR CON CEREBRO</p>
+         <img src="images/planeador/plannerOpen2.jpg" alt="Planeador con cerebro" class="card__menu">
+         <p class="price">Precio: $200</p>
+     </div>
+     <div class="buyNow">
+        <div class="textBuy"><a href="planeadores.html">COMPRAR AHORA</a></div>
+        <div class="addBuy"><a href="planeadores.html"><img src="images/iconos/carritoAgregar.png" alt="" ></a></div>
+     </div>
+ </div>
+
+ <!-- SEXTO ARTICULO -->
+ <div class="cardProduct">
+  <div class="card__image">
+    <p>PLANEADOR ENFOCATE</p>
+      <img src="images/planeador/plannerMint.jpg" alt="Planeador con Foco" class="card__menu">
+      <p class="price">Precio: $200</p>
+  </div>
+  <div class="buyNow">
+     <div class="textBuy"><a href="planeadores.html">COMPRAR AHORA</a></div>
+     <div class="addBuy"><a href="planeadores.html"><img src="images/iconos/carritoAgregar.png" alt="" ></a></div>
+  </div>
+</div>
+
+</section>
+
 
     </div>
         <!--FLOTANTES-->
