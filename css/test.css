@@ -314,7 +314,12 @@ nav {
 /*        FIN DEL NAV         */
 /* CAROUSEL PAGINA PRINCIPAL */
 .carousel-inner img {
+<<<<<<< HEAD
   width: 200px; }
+=======
+  width: 200px;
+}
+>>>>>>> e1511fe069747fe999c07f17bc2955e1d07e2055
 
 /* FORMULARIO DE CONTACTO*/
 form {
