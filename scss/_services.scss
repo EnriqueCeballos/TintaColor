@@ -1,0 +1,83 @@
+@import "colors";
+
+.services{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+
+.services__text{
+  height: 100px;
+  width: 60%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+
+  h3{
+    padding: 5px;
+  }
+  p{
+    font-size: 18px;
+    padding: 5px
+  }
+ 
+}
+.services__image{
+  background-color: pink;
+  width: 40%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgb(61, 61, 61);
+
+  img{ 
+    width: 150px;
+  
+}
+}
+}
+
+
+
+
+
+/* TABLA PAGINA SERVICIOS*/
+.table {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+
+  table {
+    text-align: left;
+    padding: auto;
+    font-size: 15px;
+    width: 100%;
+    height: 500px;
+  }
+
+  th {
+    color: $colorPrimario;
+    background-color: $colorSecundario;
+    text-align: center;
+    margin: 3px;
+  }
+  td {
+    font-size: 12px;
+    text-align: center;
+  }
+  li {
+    font-size: 12px;
+    display: block;
+  }
+
+  #tablaServicios {
+    background-color: rgb(243, 216, 224);
+  }
+}
+/* FIN TABLA PAGINA SERVICIOS*/
