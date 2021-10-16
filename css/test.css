@@ -1,10 +1,19 @@
+.mainService {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px; }
+
 .services {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   height: 200px;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 60px;
+  gap: 10px; }
   .services .services__text {
     height: 100px;
     width: 60%;
@@ -13,49 +22,27 @@
     justify-content: center;
     flex-direction: column; }
     .services .services__text h3 {
-      padding: 5px; }
+      padding: 5px;
+      text-align: center; }
     .services .services__text p {
-      font-size: 18px;
+      font-size: 16px;
       padding: 5px; }
   .services .services__image {
     background-color: pink;
     width: 40%;
-    height: 160px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     box-shadow: 0px 1px 2px #3d3d3d; }
     .services .services__image img {
-      width: 150px; }
+      height: 70%; }
 
-/* TABLA PAGINA SERVICIOS*/
-.table {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 20px; }
-  .table table {
-    text-align: left;
-    padding: auto;
-    font-size: 15px;
-    width: 100%;
-    height: 500px; }
-  .table th {
-    color: white;
-    background-color: black;
-    text-align: center;
-    margin: 3px; }
-  .table td {
-    font-size: 12px;
-    text-align: center; }
-  .table li {
-    font-size: 12px;
-    display: block; }
-  .table #tablaServicios {
-    background-color: #f3d8e0; }
+@media only screen and (max-width: 460px) {
+  .services__image img {
+    width: 90%; } }
 
-/* FIN TABLA PAGINA SERVICIOS*/
 /*  FOOTER  */
 footer {
   background-color: black;
