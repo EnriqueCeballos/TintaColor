@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap: 30px; }
+  gap: 30px;
+  margin-top: 50px; }
 
 .services {
   display: flex;
@@ -12,7 +13,7 @@
   flex-direction: row;
   height: 200px;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   gap: 10px; }
   .services .services__text {
     height: 100px;
