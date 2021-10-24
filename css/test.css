@@ -17,7 +17,8 @@
   gap: 10px;
   border-radius: 22px;
   border: 3px solid #dd909d6e;
-  background-color: pink; }
+  background-color: pink;
+  padding: 10px; }
   .services .services__text {
     height: 100px;
     width: 60%;
@@ -199,13 +200,14 @@ footer {
       width: 40px; }
 
 .filter {
-  height: 70px;
+  height: 250px;
   width: 100%;
   background-color: #212529;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  border-radius: 8px; }
+  border-radius: 8px;
+  flex-direction: column; }
   .filter .filter__product {
     height: 10px;
     padding: 0px 8px 0 8px;
@@ -226,7 +228,7 @@ footer {
       margin-left: 10px; }
   .filter .emptyBuy {
     background-color: #ccc6c6;
-    width: 6%;
+    width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-evenly;
@@ -252,7 +254,7 @@ footer {
 * {
   margin: 0px;
   padding: 0%;
-  font-family: 'Arvo', serif; }
+  font-family: "Arvo", serif; }
 
 header {
   width: 100%; }
@@ -326,7 +328,7 @@ h2 {
 /*PARRAFOS AGREGADOS*/
 main p {
   color: black;
-  font-size: 17px;
+  font-size: 20px;
   text-align: justify;
   padding: 5px;
   margin-bottom: 15px; }
@@ -370,20 +372,24 @@ form {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-radius: 8px; }
   .form .form__parrafo {
     margin: 10px; }
   .form .form__email {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center;
+    width: 30%; }
   .form .form__email img {
     height: 8vw;
     display: flex;
     gap: 20px; }
   .form .text__Area {
-    width: 100%; }
+    width: 100%;
+    border-radius: 8px; }
   .form .form__text, .form .form__emailtext {
     display: flex;
     justify-content: space-between;
@@ -391,7 +397,7 @@ form {
   .form .form__button {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly; }
   .form #send {
     margin: 10px; }
@@ -428,121 +434,121 @@ form {
   /*DESDE*/
   .main {
     max-width: 90%; }
-  h1 {
-    font-size: 25px; }
-  #tituloTinta {
-    font-size: 25px; }
-  h2 {
-    font-size: 20px; }
-  h3 {
-    font-size: 20px; }
-  p {
-    font-size: 10px; }
-  .cardProduct {
-    max-width: 300px; }
-  .flotante1 {
-    height: 30px;
-    width: 30px; }
-  .flotante2 {
-    height: 30px;
-    width: 30px; }
-  nav, nav ul {
-    flex-direction: column;
-    padding: 0px; }
-  nav li {
-    margin-bottom: 5px;
-    padding: 3px; }
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .gallery__image {
-    width: 80vw; }
-  .carousel, .carousel-inner img {
-    height: auto; } }
-
-.form {
-  flex-direction: column; }
-
-.form__email {
-  flex-direction: row; }
-
-.filter {
-  height: auto;
-  flex-wrap: wrap;
-  flex-direction: column; }
-  .filter .emptyBuy {
-    width: 100%; }
-    .filter .emptyBuy img {
-      height: 60px;
-      width: 100%; }
-  .filter .form__button {
-    flex-direction: column; }
+    .main h1 {
+      font-size: 25px; }
+    .main #tituloTinta {
+      font-size: 25px; }
+    .main h2 {
+      font-size: 20px; }
+    .main h3 {
+      font-size: 20px; }
+    .main p {
+      font-size: 10px; }
+    .main .cardProduct {
+      max-width: 300px; }
+    .main .flotante1 {
+      height: 30px;
+      width: 30px; }
+    .main .flotante2 {
+      height: 30px;
+      width: 30px; }
+    .main nav,
+    .main nav ul {
+      flex-direction: column;
+      padding: 0px; }
+    .main nav li {
+      margin-bottom: 5px;
+      padding: 3px; }
+    .main .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .main .gallery .gallery__image {
+        width: 80vw; }
+    .main .carousel,
+    .main .carousel-inner img {
+      height: auto; }
+    .main .form {
+      flex-direction: column; }
+      .main .form .form__email {
+        flex-direction: column-reverse;
+        width: 100%; }
+      .main .form .form__button {
+        flex-direction: column; }
+    .main .filter {
+      height: auto;
+      flex-wrap: wrap;
+      flex-direction: column; }
+      .main .filter .emptyBuy {
+        width: 100%; }
+        .main .filter .emptyBuy img {
+          height: 60px;
+          width: 100%; } }
 
 @media only screen and (min-width: 768px) {
   .main {
     max-width: 73%; }
-  h1 {
-    font-size: 30px; }
-  #tituloTinta {
-    font-size: 30px; }
-  h2 {
-    font-size: 22px; }
-  h3 {
-    font-size: 22px; }
-  p {
-    font-size: 14px; }
-  .flotante1 {
-    height: 35px;
-    width: 35px; }
-  .flotante2 {
-    height: 35px;
-    width: 35px; }
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; } }
+    .main h1 {
+      font-size: 30px; }
+    .main #tituloTinta {
+      font-size: 30px; }
+    .main h2 {
+      font-size: 22px; }
+    .main h3 {
+      font-size: 22px; }
+    .main p {
+      font-size: 14px; }
+    .main .flotante1 {
+      height: 35px;
+      width: 35px; }
+    .main .flotante2 {
+      height: 35px;
+      width: 35px; }
+    .main .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; } }
 
 @media only screen and (min-width: 992px) {
   .main {
     max-width: 80%; }
-  h1 {
-    font-size: 40px; }
-  #tituloTinta {
-    font-size: 40px; }
-  h2 {
-    font-size: 25px; }
-  h3 {
-    font-size: 25px; }
-  p {
-    font-size: 15px; }
-  .flotante1 {
-    height: 40px;
-    width: 40px; }
-  .flotante2 {
-    height: 40px;
-    width: 40px; }
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; } }
+    .main h1 {
+      font-size: 40px; }
+    .main #tituloTinta {
+      font-size: 40px; }
+    .main h2 {
+      font-size: 25px; }
+    .main h3 {
+      font-size: 25px; }
+    .main p {
+      font-size: 15px; }
+    .main .flotante1 {
+      height: 40px;
+      width: 40px; }
+    .main .flotante2 {
+      height: 40px;
+      width: 40px; }
+    .main .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; } }
 
 @media only screen and (min-width: 1200px) {
   .main {
     max-width: 80%; }
-  h1 {
-    font-size: 45px; }
-  #tituloTinta {
-    font-size: 45px; }
-  h2 {
-    font-size: 27px; }
-  h3 {
-    font-size: 27px; }
-  p {
-    font-size: 17px; }
-  .flotante1 {
-    height: 45px;
-    width: 45px; }
-  .flotante2 {
-    height: 45px;
-    width: 45px; } }
+    .main h1 {
+      font-size: 45px; }
+    .main #tituloTinta {
+      font-size: 45px; }
+    .main h2 {
+      font-size: 27px; }
+    .main h3 {
+      font-size: 27px; }
+    .main p {
+      font-size: 17px; }
+    .main .flotante1 {
+      height: 45px;
+      width: 45px; }
+    .main .flotante2 {
+      height: 45px;
+      width: 45px; } }
