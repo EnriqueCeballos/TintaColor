@@ -148,7 +148,7 @@ form{
 
 .form{
   background-color: $form;
-  width: 70vw;
+  width: 90%;
   text-align: start;
   font-size: 15px;
   margin: 20px;
@@ -216,12 +216,15 @@ position: fixed;
 width: 45px;
 bottom: 5%;
 right: 2%;
+
 }
 .flotante2 {
   position: fixed;
   width: 45px;
   bottom: 15%;
   right: 2%;
+  border-radius: 22px;
+  border: 3px solid black;
 }
 /* FIN IMAGENES  E ICONOS */
 
@@ -309,6 +312,25 @@ right: 2%;
   }
 }
 
+// .services{
+// .services__image{
+
+//   img{ 
+//     width: 90%;
+// }
+// }
+
+// .services__text{
+
+//   p{
+//     font-size: 13px;
+
+//   }
+ 
+// }
+// }
+
+
 @media only screen and (min-width: 768px){
     
     .main{
@@ -342,6 +364,17 @@ right: 2%;
       flex-wrap: wrap;
       justify-content: space-evenly; }
  }
+//  .services{
+
+//   .services__text{
+  
+//     p{
+//       font-size: 18px;
+  
+//     }
+   
+//   }
+//   }
 
 
 @media only screen and (min-width: 992px){
