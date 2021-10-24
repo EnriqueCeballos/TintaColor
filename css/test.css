@@ -53,7 +53,7 @@
 
 /*  FOOTER  */
 footer {
-  background-color: black;
+  background-color: #000000;
   color: white;
   padding: 20px 0 10px 0;
   display: flex;
@@ -61,14 +61,6 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap; }
-  footer .redes {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px; }
   footer .footerInfo {
     margin: 20px; }
   footer .footerLogo {
@@ -77,14 +69,15 @@ footer {
     flex-direction: row-reverse; }
   footer .mainLogo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-decoration: none; }
   footer #tintaLogo, footer .iconos {
     height: 30px;
     width: 30px;
-    margin: 10px; }
+    margin: 10px;
+    border-radius: 8px; }
   footer a {
     color: white;
     align-items: center;
@@ -95,6 +88,12 @@ footer {
     color: white;
     text-align: center;
     margin-top: 10px; }
+  footer .mapa iframe {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 /*  FIN DEL FOOTER  */
 /* GRID APLICADO*/
@@ -124,7 +123,7 @@ footer {
   .galleryProduct .cardProduct {
     height: 400px;
     width: 100%;
-    background-color: #0b1312;
+    background-color: black;
     box-shadow: 0 3px 8px rgba(165, 163, 163, 0.755);
     transition: all 0.2s;
     justify-self: center; }
@@ -172,29 +171,37 @@ footer {
   .buyNow .textBuy a {
     padding: 10px 13px;
     box-shadow: 0px 1px 2px #3d3d3d;
-    background-color: #F2E4D8;
-    color: black;
+    background-color: #dc3545;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 5px solid black; }
   .buyNow .textBuy a:hover {
-    background-color: #f7b7b1;
+    background-color: #F2E4D8;
+    color: black;
     box-shadow: 0px 1px 2px #3d3d3d;
     border-radius: 5px; }
   .buyNow img {
-    height: 40px;
-    width: 40px; }
+    height: 30px;
+    width: 30px; }
   .buyNow .addBuy {
-    background-color: #D94E4E; }
+    background-color: #ccc6c6;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
     .buyNow .addBuy :hover {
-      background-color: #D9D6D2;
+      background-color: #f79ea6;
       box-shadow: 0px 1px 2px #3d3d3d;
-      border-radius: 8px; }
+      border-radius: 3px;
+      height: 40px;
+      width: 40px; }
 
 .filter {
   height: 70px;
   width: 100%;
-  background-color: #121215;
+  background-color: #212529;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -218,7 +225,7 @@ footer {
     .filter .filter__text input {
       margin-left: 10px; }
   .filter .emptyBuy {
-    background-color: #D94E4E;
+    background-color: #ccc6c6;
     width: 6%;
     height: 70px;
     display: flex;
@@ -232,11 +239,11 @@ footer {
       justify-content: center;
       align-items: center; }
       .filter .emptyBuy img :hover {
-        background-color: #D9D6D2;
+        background-color: #f79ea6;
         box-shadow: 0px 1px 2px #3d3d3d;
         border-radius: 8px; }
     .filter .emptyBuy .buyMenu {
-      color: white;
+      color: black;
       align-items: center;
       text-align: center;
       text-decoration: none; }

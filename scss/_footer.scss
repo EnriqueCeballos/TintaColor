@@ -1,6 +1,6 @@
 /*  FOOTER  */
 footer{
-    background-color: $colorSecundario;
+    background-color: $footer;
     color: $colorPrimario;
     padding: 20px 0 10px 0;
     display: flex;
@@ -10,15 +10,15 @@ footer{
     flex-wrap: wrap;
 
 
-.redes{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+// .redes{
+//     width: 20%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     margin-left: 10px;
+//     margin-right: 10px;
+// }
 .footerInfo{
    margin: 20px;
 }
@@ -30,9 +30,9 @@ footer{
 }
 .mainLogo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ footer{
     height: 30px;
     width: 30px;
     margin: 10px;
+    border-radius: 8px;
 }
 
 .footerContact{
@@ -64,6 +65,15 @@ p {
 @extend #tintaLogo;
 }
 
+.mapa{
+    iframe{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 }
 
 /*  FIN DEL FOOTER  */

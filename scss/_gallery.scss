@@ -63,7 +63,7 @@
   border-radius: 8px;
 
   p{
-    color: white;
+    color: $colorPrimario;
     text-align: center;
     margin: 0px;
     font-size: 18px;
@@ -93,31 +93,39 @@
   a {
     padding: 10px 13px;
     box-shadow: 0px 1px 2px rgb(61, 61, 61);
-    background-color: $viewMore;
-    color: $colorSecundario;
+    background-color: $buyNow;
+    color: $colorPrimario;
     text-decoration: none;
     border-radius: 5px;
     font-size: 5px solid black;
   }
 
   a:hover {
-    background-color: $viewMore-Hover;
+    background-color: $buyNow-Hover;
+    color: $colorSecundario;
     box-shadow: 0px 1px 2px rgb(61, 61, 61);
     border-radius: 5px;
   }
 }
   img{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
  
   }
   .addBuy{
     background-color: $buy;
-    
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     :hover{
       background-color: $buy-hover;
       box-shadow: 0px 1px 2px rgb(61, 61, 61);
-      border-radius: 8px;
+      border-radius: 3px;
+      height: 40px;
+      width: 40px;
     }
   }
 }
@@ -180,7 +188,7 @@
     }
   }
   .buyMenu{
-    color: white;
+    color: $colorSecundario;
     align-items: center;
     text-align: center;
     text-decoration: none;
