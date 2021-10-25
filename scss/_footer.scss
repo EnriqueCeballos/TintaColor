@@ -31,7 +31,7 @@ footer{
 .mainLogo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     text-decoration: none;
 }
@@ -77,3 +77,11 @@ p {
 }
 
 /*  FIN DEL FOOTER  */
+
+
+@media only screen and (max-width: 460px){
+    
+.mainLogo{
+
+    align-items: center;}
+}
