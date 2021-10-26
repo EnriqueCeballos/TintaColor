@@ -76,8 +76,8 @@ body {
 h1 {
   color: $titleColor;
   font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 #tituloTinta {
@@ -140,6 +140,7 @@ nav {
   }
 }
 
+
 /* FORMULARIO DE CONTACTO*/
 form {
   width: 80%;
@@ -159,6 +160,7 @@ form {
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
+  box-shadow: -4px 4px 11px 1px grey;
 
   .form__parrafo {
     margin: 10px;
