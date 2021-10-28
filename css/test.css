@@ -450,7 +450,7 @@ form {
     .main h3 {
       font-size: 20px; }
     .main p {
-      font-size: 10px; }
+      font-size: 15px; }
     .main .cardProduct {
       max-width: 300px; }
     .main .flotante1 {
@@ -489,7 +489,7 @@ form {
       .main .filter .emptyBuy {
         width: 100%; }
         .main .filter .emptyBuy img {
-          height: 50px;
+          height: 30px;
           width: 100%; } }
 
 @media only screen and (min-width: 768px) {
